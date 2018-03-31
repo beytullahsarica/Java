@@ -31,11 +31,4 @@ public class Quicksort {
 		Integer[] retVal = Util.getInstance().concatAllArrays(sort(leftFinal), middleFinal, sort(rightFinal));
 		return retVal;
 	}
-
-	public static void main(String[] args) {
-		// Integer[] arr = { 3, 6, 8, 10, 1, 2, 1};
-		Integer[] arr = { 3, 6, 8, 10, 1, 2, 1, 78, 343, 23, 234, 23, 6, 9 };
-		System.out.println(Arrays.toString(Quicksort.sort(arr)));
-	}
-
 }
